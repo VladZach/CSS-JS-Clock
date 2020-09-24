@@ -18,11 +18,15 @@ body {
   border-radius: 100%;
 }
 
+
 .arrow {
-  width: 9rem;
+  width: 5px;
+  height: 9rem;
   position: absolute;
-  height: 5px;
-  top: 50%;
+  bottom: 50%;
   left: 50%;
   background-color: black;
+  transform-origin: bottom;
+  border-radius: 50px;
 }
+

@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.clocks-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue
+}
+
+.clocks {
+  width: 25rem;
+  height: 25rem;
+  border: 8px solid black;
+  border-radius: 100%;
+}
+
+.arrow {
+  width: 9rem;
+  position: absolute;
+  height: 5px;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+}
